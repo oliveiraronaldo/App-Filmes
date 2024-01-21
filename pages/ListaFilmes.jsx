@@ -7,9 +7,12 @@ import FilmeItem from "../components/FilmeItem.jsx";
 
 export default function ListaFilmes ({ navigation }){
 
-  function FilmeItemNavigation(item){
+  function FilmeItemNavigation({item}){
     return(
-      <FilmeItem item={item} navigation={navigation} />
+      <FilmeItem 
+        item={item}
+        navigation={navigation} 
+      />
     )
   }
 

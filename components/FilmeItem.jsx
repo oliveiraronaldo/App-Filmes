@@ -1,4 +1,4 @@
-import { View, Text, StyleSheet, Button, Dimensions, TouchableOpacity, Image} from "react-native";
+import { View, Text, StyleSheet, Dimensions, TouchableOpacity, Image} from "react-native";
 
 let imgServer = "https://image.tmdb.org/t/p/w500";
 
@@ -6,13 +6,16 @@ let widthScreen = Dimensions.get("window").width;
 
 
 
-export default function FilmeItem({ item }){
+export default function FilmeItem({ item, navigation }){
 
 
 
   return(
-    <TouchableOpacity style={styles.container}  onPress={() => navigation.navigate("FilmePagex", {filme: item})}>
-      <Image source={{uri: imgServer + item.poster_path}} />
+    <TouchableOpacity style={styles.container}  onPress={() => navigation.navigate("FilmePage", {filme: item})}>
+      <Image 
+        source={{uri: imgServer + item.poster_path}} 
+        style={styles.poster}
+      />
       <Text style={styles.text}>
         {item.title}
       </Text>
@@ -31,7 +34,8 @@ let styles = StyleSheet.create({
   text:{
     fontSize: 20,
     fontWeight: 'bold',
-    width: widthPoster
+    width: widthPoster,
+    textAlign: "center"
   },
   poster:{
     width: widthPoster,
