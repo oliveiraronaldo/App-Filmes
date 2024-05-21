@@ -1,11 +1,16 @@
-# Sample Snack app
+Trabalho Programação para dispositivos móveis ADS-IFTM
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Consumindo um JSON com vários filmes e suas respectivas informações
+Feito utilizando o React Native.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+<h2>Home</h2>
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+![WhatsApp Image 2024-05-20 at 22 44 10](https://github.com/oliveiraronaldo/App-Filmes/assets/82688367/9163f0f4-268a-4edb-88da-8315e928e887)
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+<h2>Página do filme</h2>
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+![WhatsApp Image 2024-05-20 at 22 44 10(1)](https://github.com/oliveiraronaldo/App-Filmes/assets/82688367/9903b532-829e-45eb-a9ab-a4b4ca100af2)
+
+<h2>Elenco</h2>
+
+![WhatsApp Image 2024-05-20 at 22 44 10(2)](https://github.com/oliveiraronaldo/App-Filmes/assets/82688367/4c5089de-977e-49dd-8052-67fdd7cb84c6)
